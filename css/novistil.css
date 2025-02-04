@@ -1,0 +1,134 @@
+/* Stil za navigacione linkove "Početna strana" kada korisnik pređe mišem preko njih */
+.navbar-nav  .nav-link:hover {
+    color: #aeaca4; /* Promenite ovu vrednost u željenu boju teksta */
+    background-color: #884505; /* Promenite ovu vrednost u željenu boju pozadine */
+  }
+  body {
+    background-color: #f8f7f3; /* Promenite ovu vrednost na željenu nijansu svetlo braon boje */
+}
+.navbar {
+  
+  border-color: #f8f7f3; /* Promenite ovu vrednost ako želite da prilagodite boju ivice */
+}
+
+.navbar-nav  .nav-link{
+  color: #000000;
+}
+/* Osnovni stil za meni */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f8f7f3;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+
+.menu li:hover > a {
+  background-color: #f8f7f3;
+}
+
+/* Stil za padajući meni */
+.menu .dropdown {
+  position: relative; /* Dodato */
+}
+
+.menu .dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%; /* Pomera padajući meni ispod roditeljske stavke */
+  left: 0; /* Poravnanje menija sa roditeljskom stavkom */
+}
+
+.menu .dropdown-content {
+  display: none;
+  background-color: #fafaf8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Osnovni stil za meni */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fbfbfb;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu li:hover > a {
+  background-color: #884505;
+}
+
+/* Stil za padajući meni */
+.menu .dropdown {
+  position: relative; /* Dodato */
+}
+
+.menu .dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%; /* Pomera padajući meni ispod roditeljske stavke */
+  left: 0; /* Poravnanje menija sa roditeljskom stavkom */
+}
+
+.menu .dropdown-content {
+  display: none;
+  background-color: #884505;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.menu .dropdown-content li {
+  display: block;
+}
+
+.menu .dropdown-content li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #aeaca4;
+}
+
+.menu .dropdown-content li:hover a {
+  background-color: #000000;
+}
+
+/* Stil za padajući meni */
+.menu .dropdown {
+  position: relative;
+  display: inline-block; /* Dodajte ovu liniju */
+}
+
+.menu .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Pomera padajući meni ispod roditeljske stavke */
+  left: 0;
+  z-index: 1; /* Dodajte ovu liniju kako bi meni bio iznad ostalog sadržaja */
+}
+
+.menu .dropdown:hover .dropdown-content {
+  display: block;
+}
+
